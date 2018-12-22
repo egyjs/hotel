@@ -8,7 +8,7 @@
 session_start();
 
 
-define('base',dirname(__DIR__).'/htdocs');
+define('base',dirname(__DIR__));
 define('base_url',getenv('HTTP_HOST').'/');
 define('path_config',base.'/app/config.php');
 include base.'/app/functions.php';
