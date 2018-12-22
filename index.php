@@ -45,7 +45,7 @@ $assets = "//".base_url.$folder;
 
 // includes
 include path_config;
-//var_dump(base.$folder.'/'.$page);
+var_dump(base.$folder.'/'.$page);
 if (file_exists(base.$folder.'/'.$page)){
         require_once base.$folder.'/'.$page;
 }else{
