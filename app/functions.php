@@ -172,4 +172,9 @@ function to($url,$seconds = 0){
     exit;
 }
 
+function refresh(){
+    header("Location: ". $_SERVER['REQUEST_URI']);
+    exit;
+}
+
 

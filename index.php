@@ -11,9 +11,8 @@ session_start();
 define('base','');
 define('base_url',getenv('HTTP_HOST').'/');
 define('path_config',base.'app/config.php');
-include base.'app/functions.php';
-include base.'app/core.php';
-
+include 'app/functions.php';
+include 'app/core.php';
 // route
 $folder = "public";
 $page = "index.php";
